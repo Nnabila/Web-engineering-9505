@@ -1,0 +1,189 @@
+<!DOCTYPE html
+<html>
+<head>
+<title>Nabila Zaman</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<header class="h1">
+<h1>Nabila Zaman</h1> 
+<h6>--programmer--<h6>
+</header>
+<div class="div1" > 
+  <div class="div2">
+    <h3 style="color:#250056;">About Me:</h3>
+    <p>
+	 My name is Nabila Zaman. I am 21 years old. I am from Sherpur Sadar, Sherpur. 
+	 I study Computer Science and Engineering in Daffodil International University in Dhaka. 
+	 I can speak three languages: Bangla, English, and Hindi. I have a younger brother.
+	 My father is a businessman and my mother is a housewife. In my free time I like to watch movies.
+
+	</p>
+	<br><br><br><br>
+	<h3 style="color:#250056;">Contacts:</h3>
+	<p>
+	  <a href="https://www.facebook.com/nisad.nabila" target="_blank" title="facebook">
+	    <img src="fb.gif" alt="Facebook"
+		  style="width:80px;height:80px;border:0">
+	  </a>
+	  <a href="https://www.instagram.com/nisad.nabila/" target="_blank" title="instragram">
+	    <img src="instra.gif" alt="Instragram"
+		  style="width:120px;height:120px;border:0">
+	  </a>
+	  <a href="file:///C:/Users/User/Desktop/Web%20Assignment%201/email.html" target="_blank" title="email">
+	    <img src="email.jpg" alt="Email"
+		  style="width:100px;height:90px;border:0">
+	  </a>
+	</p>
+	
+  </div>
+  <div class="div3" style="background-color:#DAF7F8"> 
+    <img src="me.jpg" height="500 px" width="350px" >
+	<p style="color:blue;"> Born: 18<sup>th</sup> October, 1998</p>
+	<p style="color:blue;">Gender: Female</p>
+  </div>
+</div>
+
+<div class="div4" style="background-color:#F0FBEC">
+<h3 style="color:#250056;">Educational Institutions:</h3>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="diu.jpg" style="width:100%">
+    <div class="text"><a href="https://daffodilvarsity.edu.bd/" style="color:white">University</a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="college.jpg" style="width:100%">
+    <div class="text"><a href="http://sherpurgovtcollege.edu.bd/" style="color:white" >College</a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="school.jpg" style="width:100%">
+    <div class="text"><a href="https://www.facebook.com/NPS.Sherpur/" style="color:white">School</a></div>
+  </div>
+  
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<div class="div5" align="center">
+ <div class="divtable">
+ <table align="center">
+ <caption style="font-size:40px; color:#265241;"><b>Skills</b></caption>
+  <tr>
+    <th>Skills</th>
+    <th>Interest Level (out of 5*)</th>
+    <th>Experience/Source</th>
+  </tr>
+  <tr>
+    <td>Web Designing</td>
+    <td style="font-size:30px;">* * * * *</td>
+    <td>Source-University<br>
+	<a href="https://www.w3schools.com/html/default.asp" title="w3school.html">Another Source</a> </td>
+  </tr>
+  <tr>
+    <td>Java Coding</td>
+    <td style="font-size:30px;">* * * *</td>
+    <td>Source-University</td>
+  </tr>
+  <tr>
+    <td>Android</td>
+    <td style="font-size:30px;">* * * *</td>
+    <td>Source-University</td>
+  </tr>
+  <tr>
+    <td>Photography</td>
+    <td style="font-size:30px;">* * * * *</td>
+    <td>Not a proffesional photograpger</td>
+  </tr>
+  <tr>
+    <td>Communication</td>
+    <td style="font-size:30px;">* * * *</td>
+    <td>Bangla, English</td>
+  </tr>
+</table>
+</div>
+<br><br>
+<header class="h2" >
+ <br>
+  <i>Besides I have got plenty of hobbies that keep me busy on my free times and make my life more enjoyable and colorful.</i>
+</header>
+</div>
+<div class="divlast">
+  <div class="divleft" style="overflow:auto;" > 
+      <dl>
+	    <dt>Love to Spend time on <b style="color:#AF4088">Social media</b></dt>
+		<dd>
+		   <ul><li style="color:#CE3498">Get on Instagram/Facebook</li>
+		       <li style="color:#CE3498">Online Shopping</li>
+			   <li style="color:#CE3498">Communicate with friends</li>
+			   <li style="color:#CE3498">Read an ebook</li>
+			   <li style="color:#CE3498">Read various articles</li>
+		   </ul>
+		    <img src="so.jpg" alt="Social media" height="300" width="100%">
+		</dd>
+		<dt>I am a <b style="color:#AF4088">foodie and good cook</b> </dt>
+		   <ul><li style="color:#CE3498">Love to experiment with halal food</li>
+		       <li style="color:#CE3498">I do cook often and try new recipes</li>
+		   </ul>
+		    <img src="food.jpg" alt="Foods" height="300" width="100%">
+
+	  </dl>
+	  <dt>I love <b style="color:#AF4088">travelling</b> most</dt>
+		   <ul><li style="color:#CE3498">I do travell mostly with friends</li>
+		       <li style="color:#CE3498">Love to explore new places</li>
+		   </ul>
+		    <img src="tr.jpg" alt="Travelling" height="300" width="100%">
+
+	  </dl>
+  </div>
+  <div class="divright" style="background-color:#3D0E2D;"> 
+     <h1 style="color:white;text-align:center;"> 
+	 <i>My Hobbies</i> </h1>
+  </div>
+</div>
+<footer>Copyright©</footer>
+<body>
+</html>
